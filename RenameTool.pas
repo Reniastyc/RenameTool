@@ -136,7 +136,7 @@ end;
 
 procedure TSubtileRenameTool.SpeedButton_RenameClick(Sender: TObject);
 var
-  FileName, DestName, TS: string;
+  Path, FileName, DestName, TS: string;
   i, l: Integer;
 begin
   if Memo_Files.Lines.Count <> Memo_Targets.Lines.Count then
@@ -148,10 +148,18 @@ begin
   begin
     FileName := Memo_Files.Lines[i];
     TS := ExtractFileExt(FileName);
-    DestName := Memo_Targets.Lines[i];
-    DestName := ChangeFileExt(DestName, TS);
+    DestName := ChangeFileExt(Memo_Targets.Lines[i], TS);
     if FileExists(FileName) then
     begin
+      if ExtractFilePath(DestName) = '' then
+      begin
+        Path := ExtractFilePath(FileName);
+        if not Path.EndsWith('\') then
+        begin
+          Path := Path + '\';
+        end;
+        DestName := Path + DestName;
+      end;
       RenameFile(FileName, DestName);
     end;
   end;
