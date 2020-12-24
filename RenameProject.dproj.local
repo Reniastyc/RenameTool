@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2020/12/24 09:31:48.591,=D:\MyOwn\My Projects\Unit1.pas</Transaction>
+    <Transaction>2020/12/24 09:32:25.281,D:\MyOwn\My Projects\Subtitle Tool\RenameTool.pas=D:\MyOwn\My Projects\Unit1.pas</Transaction>
+    <Transaction>2020/12/24 09:32:25.281,D:\MyOwn\My Projects\Subtitle Tool\RenameTool.fmx=D:\MyOwn\My Projects\Unit1.fmx</Transaction>
+    <Transaction>2020/12/24 09:32:38.052,D:\MyOwn\My Projects\Subtitle Tool\RenameProject.dproj=D:\MyOwn\My Projects\Project1.dproj</Transaction>
+  </Transactions>
+  <ActiveMobileDevice>   <NoProfile iOSSimulator="iPhone5"/>
+  </ActiveMobileDevice>
+</BorlandProject>
