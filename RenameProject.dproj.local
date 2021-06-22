@@ -2,9 +2,9 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2020/12/24 09:31:48.000.591,=D:\MyOwn\My Projects\Unit1.pas</Transaction>
-    <Transaction>2020/12/24 09:32:25.000.281,D:\MyOwn\My Projects\Subtitle Tool\RenameTool.pas=D:\MyOwn\My Projects\Unit1.pas</Transaction>
-    <Transaction>2020/12/24 09:32:25.000.281,D:\MyOwn\My Projects\Subtitle Tool\RenameTool.fmx=D:\MyOwn\My Projects\Unit1.fmx</Transaction>
-    <Transaction>2020/12/24 09:32:38.000.052,D:\MyOwn\My Projects\Subtitle Tool\RenameProject.dproj=D:\MyOwn\My Projects\Project1.dproj</Transaction>
+    <Transaction>2020/12/24 09:32:25.000.281,D:\MyOwn\My Projects\Unit1.pas=D:\MyOwn\My Projects\Subtitle Tool\RenameTool.pas</Transaction>
+    <Transaction>2020/12/24 09:32:25.000.281,D:\MyOwn\My Projects\Unit1.fmx=D:\MyOwn\My Projects\Subtitle Tool\RenameTool.fmx</Transaction>
+    <Transaction>2020/12/24 09:32:38.000.052,D:\MyOwn\My Projects\Project1.dproj=D:\MyOwn\My Projects\Subtitle Tool\RenameProject.dproj</Transaction>
   </Transactions>
 	<ActiveMobileDevice>
 		<NoProfile iOSSimulator="iPhone5"/>
